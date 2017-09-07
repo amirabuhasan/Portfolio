@@ -1,4 +1,4 @@
-function tryDocument() {
+function launchDocument() {
   $(".memory-game .featured-image").on("click", function(){
     $('#memoryGameModal').modal('show');
   });
@@ -10,4 +10,4 @@ function tryDocument() {
   });
 };
 
-$(tryDocument());
+$(launchDocument());
