@@ -19,11 +19,11 @@
 // $(tryDocument());
 
 function tryDocument(){
-  $(".memory-game img, h3").on("click", function(){
+  $(".memory-game img").on("click", function(){
     console.log("I am clicked");
     $('#memoryGameModal').modal('show');
   });
-  $(".movie-website img, h3").on("click", function(){
+  $(".movie-website img").on("click", function(){
     console.log("I am clicked");
     $('#movieWebsiteModal').modal('show');
   });

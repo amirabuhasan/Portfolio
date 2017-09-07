@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/bootstrap-social.css">
 </head>
 <body>
+  <!--Navigation Bar-->
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -26,7 +27,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Portfolio</a>
+        <a class="navbar-brand">Portfolio</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
@@ -36,8 +37,9 @@
     </div>
   </nav>
 
+  <!--Portfolio-->
   <div class="portfolio container">
-    <div class="header row">
+    <div class="portfolio-header row">
       <div class="logo col-xs-6">
         <img class="logo img-responsive" src="images/glasses.png" alt="A caricature of myself">
       </div>
@@ -46,15 +48,14 @@
         <h3 class="text-right">Front-end Ninja</h3>
       </div>
     </div>
-
     <hr>
-
-    <div class="image row">
-      <div class="image col-md-12">
+    <div class="portfolio-image row">
+      <div class="portfolio-image col-md-12">
         <img class="main img-responsive center-block" src="images/frontend.png" alt="Comic about frontend development">
       </div>
     </div>
 
+<!--Featured Work-->
     <div class="featured">
       <div class="featured-text row">
         <div class="col-md-12">
@@ -63,19 +64,19 @@
       </div>
       <div class="featured-work row">
         <div class="movie-website work col-xs-6">
-          <img class="img-responsive img-rounded center-block" src="images/movie-website.png" alt="Placeholder">
+          <img class="img-responsive img-rounded center-block highlight" src="images/movie-website.png" alt="Placeholder">
           <h3 class="text-center">Movie Website</h3>
         </div>
 
         <div class="memory-game work col-xs-6">
-          <img class="img-responsive img-rounded center-block" src="images/memory-game.png" alt="Placeholder">
+          <img class="img-responsive img-rounded center-block highlight" src="images/memory-game.png" alt="Placeholder">
           <h3 class="text-center">Memory Game</h3>
         </div>
       </div>
     </div>
   </div>
 
-  <footer class="container-fluid text-center">
+  <footer class="main-footer container-fluid text-center">
   <p>Amir Abu Hasan © 2017</p>
   </footer>
   <script src="js/app.js"></script>
@@ -102,15 +103,15 @@
                   <center>
                   <p class="modal-description text-left"><strong>Bio: </strong></p>
                   <p class="modal-description text-left">
-                    Hi! My name is Amir, and I am a novice Front-end Web Developer.
+                    Hi! I'm Amir, and I am a novice Front-End Web Developer.
                     I started learning to code back in May by taking online classes
                     at Udacity. I have an Introduction to Programming Nanodegree,
                     and am currently pursuing a Front-End Web Developer Nanodegree.
                   </p>
                   <p class="modal-description text-left">
                     This site was started to showcase my Udacity projects and document
-                    my progress over the months. If you want to keep in touch, feel
-                    free to connect with me via the links below.
+                    my progress over the months. If you want to connect, feel
+                    free to reach out via the social links below.
                   </p>
                   <br>
                   </center>
@@ -143,14 +144,12 @@
       </div>
   </div>
 
-  <!--Memory Game Modal courtesy of https://bootsnipp.com/snippets/featured/310-user-profile-in-modal-window-->
+  <!--Memory Game Modal-->
   <div id="memoryGameModal" class="modal fade" role="dialog">
     <div class="modal-dialog">
-
-      <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title"><center>Memory Game</center></h4>
+          <h3 class="modal-title"><center>Memory Game</center></h3>
         </div>
         <div class="modal-body">
           <div class="modal-image row">
@@ -181,14 +180,12 @@
     </div>
   </div>
 
-  <!--Movie Website Modal courtesy of https://bootsnipp.com/snippets/featured/310-user-profile-in-modal-window-->
+  <!--Movie Website Modal-->
   <div id="movieWebsiteModal" class="modal fade" role="dialog">
     <div class="modal-dialog">
-
-      <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title"><center>Movie Website</center></h4>
+          <h3 class="modal-title"><center>Movie Website</center></h3>
         </div>
         <div class="modal-body">
           <div class="modal-image row">

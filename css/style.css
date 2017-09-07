@@ -8,15 +8,23 @@ hr {
   border-color: black !important;
 }
 
-.work{
-  margin-bottom: 20px;
-}
-
 img{
   border-radius: 10px;
 }
 
-.header{
+.navbar{
+  font-family: "Montserrat";
+}
+
+.navbar-brand{
+  color: white !important;
+}
+
+.work{
+  margin-bottom: 20px;
+}
+
+.portfolio-header{
   background-color: Crimson ;
   padding: 10px;
   border-radius: 10px;
@@ -44,21 +52,18 @@ img{
   margin-bottom: 1%;
 }
 
-.image{
+.portfolio-image{
   margin-bottom: 2%;
 }
 
-.movie-website img, h3{
+.movie-website img{
   cursor: pointer;
 }
 
-.memory-game img, h3{
+.memory-game img{
   cursor: pointer;
 }
 
-h3{
-
-}
 
 
 
@@ -92,6 +97,19 @@ h3{
 .modal-social{
   margin-bottom: 20px;
 }
+
+.main-footer{
+  margin-top: 20px;
+}
+
+.highlight{
+  opacity:1;
+}
+
+.highlight:hover{
+  filter: brightness(70%);
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 
