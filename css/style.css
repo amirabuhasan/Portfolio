@@ -24,12 +24,17 @@ img {
   border-radius: 10px;
 }
 
-.text-right {
+.name .text-right {
   color: black;
    -webkit-text-fill-color: white;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
    font-weight: bold;
+}
+
+.portfolio-image .text-right{
+  font-size: 10px;
+  margin-right: 8%;
 }
 
 .featured {
