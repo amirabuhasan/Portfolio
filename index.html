@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Hind:400,600,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Portfolio</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#aboutModal" class="about" data-toggle="modal" data-target="#myModal">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+
+  <div class="portfolio container">
+    <div class="header row">
+      <div class="logo col-xs-6">
+        <img class="logo img-responsive" src="images/glasses.png" alt="A caricature of myself">
+      </div>
+      <div class="name col-xs-6">
+        <h1 class="text-right">Amir Abu Hasan</h1>
+        <h3 class="text-right">Front-end Ninja</h3>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="image row">
+      <div class="image col-md-12">
+        <img class="main img-responsive center-block" src="images/frontend.png" alt="Comic about frontend development">
+      </div>
+    </div>
+
+    <div class="featured">
+      <div class="featured-text row">
+        <div class="col-md-12">
+          <h2 class="text-center"><u>Featured work</u></h2>
+        </div>
+      </div>
+      <div class="featured-work row">
+        <div class="work col-xs-6">
+          <img class="img-responsive img-rounded center-block" src="images/movie-website.png" alt="Placeholder">
+          <h3 class="text-center">Movie Website</h3>
+        </div>
+
+        <div class="work col-xs-6">
+          <img class="img-responsive img-rounded center-block" src="images/memory-game.png" alt="Placeholder">
+          <h3 class="text-center">Memory Game</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center">
+  <p>Footer Text</p>
+  </footer>
+  <script src="js/app.js"></script>
+
+  <!--Section for Modal courtesy of https://bootsnipp.com/snippets/featured/310-user-profile-in-modal-window-->
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                  <h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+                  </div>
+              <div class="modal-body">
+                  <center>
+                  <img src="images/amir-abu-hasan.jpg" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                  <h3 class="media-heading">Amir Abu Hasan <small>Kuala Lumpur</small></h3>
+                  <span><strong>Skills: </strong></span>
+                      <span class="label label-warning">HTML5/CSS</span>
+                      <span class="label label-info">Javascript/Jquery</span>
+                      <span class="label label-success">Adobe Photoshop</span>
+                  </center>
+                  <hr>
+                  <center>
+                  <p class="text-left"><strong>Bio: </strong><br>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                  <br>
+                  </center>
+              </div>
+              <div class="modal-footer">
+                  <center>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Amir</button>
+                  </center>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</body>
+</html>

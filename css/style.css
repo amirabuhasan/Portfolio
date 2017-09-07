@@ -1,0 +1,65 @@
+
+
+body{
+  background-color: #f0f0f5 !important;
+}
+
+hr {
+  border-color: black !important;
+}
+
+.work{
+  margin-bottom: 20px;
+}
+
+img{
+  border-radius: 10px;
+}
+
+.header{
+  background-color: Crimson ;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.featured{
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.text-right{
+  color: black;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-weight: bold;
+}
+
+.featured-work{
+  padding: 10px;
+}
+
+.featured-text{
+  margin-bottom: 1%;
+}
+
+.image{
+  margin-bottom: 2%;
+}
+
+h3{
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { }
