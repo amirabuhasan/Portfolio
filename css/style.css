@@ -53,6 +53,37 @@ h3{
 }
 
 
+
+
+/*Style for modals*/
+.button{
+  font-size: 1.25em;
+  font-weight: bold;
+  background-color: Crimson;
+  border: none;
+  padding: .5em 1em;
+  color: #fff;
+  box-shadow: 0 0 0 2px Crimson inset;
+  border-radius: .25em;
+  cursor: pointer;
+  -webkit-transition: background .4s ease, color .4s ease;
+  transition: background .4s ease, color .4s ease;
+}
+
+.button:hover {
+  box-shadow: 0 0 0 2px Crimson inset;
+  color: Crimson;
+  background-color: transparent;
+}
+
+.modal-description{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.modal-social{
+  margin-bottom: 20px;
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 
