@@ -26,6 +26,15 @@ img{
   border-radius: 10px;
 }
 
+.modal-header{
+  background-color: Crimson ;
+  color: black;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-weight: bold;
+}
+
 .featured{
   background-color: white;
   border-style: solid;
@@ -68,12 +77,15 @@ img{
 
 /*Style for modals*/
 .button{
+  color: black;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   font-weight: bold;
   font-size: 1.25em;
-  font-weight: bold;
   background-color: Crimson;
   border: none;
   padding: .5em 1em;
-  color: #fff;
   box-shadow: 0 0 0 2px Crimson inset;
   border-radius: .25em;
   cursor: pointer;
@@ -83,7 +95,7 @@ img{
 
 .button:hover {
   box-shadow: 0 0 0 2px Crimson inset;
-  color: Crimson;
+  -webkit-text-stroke-color: Crimson;
   background-color: transparent;
 }
 
