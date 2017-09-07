@@ -48,6 +48,14 @@ img{
   margin-bottom: 2%;
 }
 
+.movie-website img, h3{
+  cursor: pointer;
+}
+
+.memory-game img, h3{
+  cursor: pointer;
+}
+
 h3{
 
 }
