@@ -20,10 +20,6 @@ img{
   color: white !important;
 }
 
-.work{
-  margin-bottom: 20px;
-}
-
 .portfolio-header{
   background-color: Crimson ;
   padding: 10px;
@@ -36,16 +32,20 @@ img{
   border-radius: 10px;
 }
 
+.featured-work{
+  padding: 10px;
+}
+
+.gap{
+  margin-bottom: 20px;
+}
+
 .text-right{
   color: black;
    -webkit-text-fill-color: white;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
    font-weight: bold;
-}
-
-.featured-work{
-  padding: 10px;
 }
 
 .featured-text{
@@ -63,8 +63,6 @@ img{
 .memory-game img{
   cursor: pointer;
 }
-
-
 
 
 
@@ -92,10 +90,6 @@ img{
 .modal-description{
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.modal-social{
-  margin-bottom: 20px;
 }
 
 .main-footer{
