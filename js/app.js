@@ -1,31 +1,12 @@
-
-//
-//
-// function navbar(element){
-//     $(".nav li").removeClass("active");
-//     $(element).toggleClass("active");
-// };
-//
-// function tryDocument(){
-//   $(".nav li").on("click", function(){
-//     $(navbar(this));
-//   });
-//   $(".portfolio").on("click", function(){
-//     $(".nav li").removeClass("active");
-//   });
-// };
-//
-//
-// $(tryDocument());
-
-function tryDocument(){
-  $(".memory-game img").on("click", function(){
-    console.log("I am clicked");
+function tryDocument() {
+  $(".memory-game .featured-image").on("click", function(){
     $('#memoryGameModal').modal('show');
   });
-  $(".movie-website img").on("click", function(){
-    console.log("I am clicked");
+  $(".movie-website .featured-image").on("click", function(){
     $('#movieWebsiteModal').modal('show');
+  });
+  $(".portfolio-website .featured-image").on("click", function(){
+    $('#portfolioWebsiteModal').modal('show');
   });
 };
 

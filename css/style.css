@@ -1,6 +1,6 @@
 
 
-body{
+body {
   background-color: #f0f0f5 !important;
 }
 
@@ -8,25 +8,25 @@ hr {
   border-color: black !important;
 }
 
-img{
+img {
   border-radius: 10px;
 }
 
-.navbar{
+.navbar {
   font-family: "Montserrat";
 }
 
-.navbar-brand{
+.navbar-brand {
   color: white !important;
 }
 
-.portfolio-header{
+.portfolio-header {
   background-color: Crimson ;
   padding: 10px;
   border-radius: 10px;
 }
 
-.modal-header{
+.modal-header {
   background-color: Crimson ;
   color: black;
    -webkit-text-fill-color: white;
@@ -35,21 +35,21 @@ img{
    font-weight: bold;
 }
 
-.featured{
+.featured {
   background-color: white;
   border-style: solid;
   border-radius: 10px;
 }
 
-.featured-work{
+.featured-work {
   padding: 10px;
 }
 
-.gap{
+.margin-bottom {
   margin-bottom: 20px;
 }
 
-.text-right{
+.text-right {
   color: black;
    -webkit-text-fill-color: white;
    -webkit-text-stroke-width: 1px;
@@ -57,26 +57,22 @@ img{
    font-weight: bold;
 }
 
-.featured-text{
+.featured-text {
   margin-bottom: 1%;
 }
 
-.portfolio-image{
+.portfolio-image {
   margin-bottom: 2%;
 }
 
-.movie-website img{
-  cursor: pointer;
-}
-
-.memory-game img{
+.featured-image {
   cursor: pointer;
 }
 
 
 
 /*Style for modals*/
-.button{
+.button {
   color: black;
    -webkit-text-fill-color: white;
    -webkit-text-stroke-width: 1px;
@@ -99,20 +95,20 @@ img{
   background-color: transparent;
 }
 
-.modal-description{
+.modal-description {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.main-footer{
+.main-footer {
   margin-top: 20px;
 }
 
-.highlight{
+.highlight {
   opacity:1;
 }
 
-.highlight:hover{
+.highlight:hover {
   filter: brightness(70%);
 }
 
