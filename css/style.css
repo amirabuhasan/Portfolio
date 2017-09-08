@@ -26,13 +26,13 @@ img {
 
 .name .text-right {
   color: black;
-   -webkit-text-fill-color: white;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
-   font-weight: bold;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
 }
 
-.portfolio-image .text-right{
+.portfolio-image .text-right {
   font-size: 10px;
   margin-right: 8%;
 }
@@ -59,7 +59,7 @@ img {
   margin-bottom: 20px;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
@@ -71,10 +71,10 @@ img {
 .modal-header {
   background-color: Crimson ;
   color: black;
-   -webkit-text-fill-color: white;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
-   font-weight: bold;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
 }
 
 .modal-description {
@@ -84,19 +84,19 @@ img {
 
 .button {
   color: black;
-   -webkit-text-fill-color: white;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
-   font-weight: bold;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
   font-size: 1.25em;
   background-color: Crimson;
   border: none;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   box-shadow: 0 0 0 2px Crimson inset;
-  border-radius: .25em;
+  border-radius: 0.25em;
   cursor: pointer;
-  -webkit-transition: background .4s ease, color .4s ease;
-  transition: background .4s ease, color .4s ease;
+  -webkit-transition: background 0.4s ease, color 0.4s ease;
+  transition: background 0.4s ease, color 0.4s ease;
 }
 
 .button:hover {
@@ -105,13 +105,13 @@ img {
   background-color: transparent;
 }
 
-.close{
+.close {
   min-height: 48px;
   min-width: 48px;
 }
 
 .highlight {
-  opacity:1;
+  opacity: 1;
 }
 
 .highlight:hover {
@@ -122,6 +122,6 @@ img {
   margin-top: 20px;
 }
 
-.img-circle{
+.img-circle {
   border: 0;
 }
