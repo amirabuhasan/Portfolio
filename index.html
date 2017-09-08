@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" defer></script>
@@ -10,11 +11,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap-social.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -54,20 +55,18 @@
         <hr>
       </div>
     </div>
-
     <!--Portfolio image-->
     <div class="portfolio-image row">
       <div class="portfolio-image col-md-12">
         <figure>
           <img class="main img-responsive center-block" src="images/frontend.png" alt="Comic about frontend development">
           <figcaption class="text-right">
-              Image courtesy of Adam Kampa<a href="https://github.com/EnlightenAgency/EnlBase/wiki/Enlighten-Front-End-Standards"> Source</a>
+            Image courtesy of Adam Kampa<a href="https://github.com/EnlightenAgency/EnlBase/wiki/Enlighten-Front-End-Standards"> Source</a>
           </figcaption>
         </figure>
       </div>
     </div>
-
-<!--Featured Work-->
+    <!--Featured Work-->
     <div class="featured">
       <div class="featured-text row">
         <div class="col-md-12">
@@ -102,58 +101,54 @@
 
   <!--About me Modal courtesy of https://bootsnipp.com/snippets/featured/310-user-profile-in-modal-window-->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                  <h3 class="modal-title" id="myModalLabel">About Me</h3>
-                  </div>
-              <div class="modal-body center">
-                  <img src="images/amir-abu-hasan.jpg" id="aboutme" width="140" height="140" class="img-circle" alt="A picture of me">
-                  <h3 class="media-heading">Amir Abu Hasan <small>Kuala Lumpur</small></h3>
-                  <span><strong>Skills: </strong></span>
-                      <span class="label label-warning">HTML5/CSS</span>
-                      <span class="label label-info">Javascript/Jquery</span>
-                      <span class="label label-success">Adobe Photoshop</span>
-                  <hr>
-                  <p class="modal-description text-left"><strong>Bio: </strong></p>
-                  <p class="modal-description text-left">
-                    Hi! I'm Amir, and I am a novice Front-End Web Developer.
-                    I started learning to code back in May by taking online classes
-                    at Udacity. I have an Introduction to Programming Nanodegree,
-                    and am currently pursuing a Front-End Web Developer Nanodegree.
-                  </p>
-                  <p class="modal-description text-left">
-                    This site was started to showcase my Udacity projects and document
-                    my progress over the months. If you want to connect, feel
-                    free to reach out via the social links below.
-                  </p>
-                  <br>
-              </div>
-              <div class="modal-social margin-bottom text-center">
-                <span>
-                  <a href="https://www.facebook.com/amirabuhasan91" target="_blank" class="btn btn-social-icon btn-facebook">
-                    <span class="fa fa-facebook"></span>
-                  </a>
-                </span>
-                <span>
-                  <a href="https://linkedin.com/in/amirabuhasan/" target="_blank" class="btn btn-social-icon btn-linkedin">
-                    <span class="fa fa-linkedin"></span>
-                  </a>
-                </span>
-                <span>
-                  <a href="mailto:amirabuhasan@gmail.com?Subject=Get%20in%20touch" target="_top" class="btn btn-social-icon btn-pinterest">
-                    <span class="fa fa-envelope"></span>
-                  </a>
-                </span>
-              </div>
-              <div class="modal-footer">
-                <div class="center">
-                  <button type="button" class="button" data-dismiss="modal">Close</button>
-                </div>
-              </div>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title" id="myModalLabel">About Me</h3>
+        </div>
+        <div class="modal-body center">
+          <img src="images/amir-abu-hasan.jpg" id="aboutme" width="140" height="140" class="img-circle" alt="A picture of me">
+          <h3 class="media-heading">Amir Abu Hasan <small>Kuala Lumpur</small></h3>
+          <span><strong>Skills: </strong></span>
+          <span class="label label-warning">HTML5/CSS</span>
+          <span class="label label-info">Javascript/Jquery</span>
+          <span class="label label-success">Adobe Photoshop</span>
+          <hr>
+          <p class="modal-description text-left"><strong>Bio: </strong>
+          </p>
+          <p class="modal-description text-left">
+            Hi! I'm Amir, and I am a novice Front-End Web Developer. I started learning to code back in May by taking online classes at Udacity. I have an Introduction to Programming Nanodegree, and am currently pursuing a Front-End Web Developer Nanodegree.
+          </p>
+          <p class="modal-description text-left">
+            This site was started to showcase my Udacity projects and document my progress over the months. If you want to connect, feel free to reach out via the social links below.
+          </p>
+          <br>
+        </div>
+        <div class="modal-social margin-bottom text-center">
+          <span>
+            <a href="https://www.facebook.com/amirabuhasan91" target="_blank" class="btn btn-social-icon btn-facebook">
+            <span class="fa fa-facebook"></span>
+            </a>
+          </span>
+          <span>
+            <a href="https://linkedin.com/in/amirabuhasan/" target="_blank" class="btn btn-social-icon btn-linkedin">
+            <span class="fa fa-linkedin"></span>
+            </a>
+          </span>
+          <span>
+            <a href="mailto:amirabuhasan@gmail.com?Subject=Get%20in%20touch" target="_top" class="btn btn-social-icon btn-pinterest">
+            <span class="fa fa-envelope"></span>
+            </a>
+          </span>
+        </div>
+        <div class="modal-footer">
+          <div class="center">
+            <button type="button" class="button" data-dismiss="modal">Close</button>
           </div>
+        </div>
       </div>
+    </div>
   </div>
 
   <!--Memory Game Modal-->
@@ -172,16 +167,11 @@
           </div>
           <hr>
           <div class="modal-description">
-            <div>
-              <p><strong>The Memory Game</strong> was built to test a user's memory skills.
-                The aim of the game is to match 8 sets of cards in pairs of two in a deck.
-                The game is won once all the cards in the deck have been matched.
-              </p>
-              <p>
-                This project was built as a Udacity course project to demonstrate
-                mastery of <strong>HTML, CSS, and JavaScript.</strong>
-              </p>
-            </div>
+            <p><strong>The Memory Game</strong> was built to test a user's memory skills. The aim of the game is to match 8 sets of cards in pairs of two in a deck. The game is won once all the cards in the deck have been matched.
+            </p>
+            <p>
+              This project was built as a Udacity course project to demonstrate mastery of <strong>HTML, CSS, and JavaScript.</strong>
+            </p>
           </div>
         </div>
         <div class="modal-footer">
@@ -203,21 +193,15 @@
         </div>
         <div class="modal-body">
           <div class="modal-image">
-            <div>
-              <img class="img-responsive img-rounded center-block" src="images/movie-website.png" alt="A screenshot of the Movie Website">
-            </div>
+            <img class="img-responsive img-rounded center-block" src="images/movie-website.png" alt="A screenshot of the Movie Website">
           </div>
           <hr>
           <div class="modal-description">
-            <div>
-              <p><strong>Movie Website</strong> was built to showcase my favorite movies. Each tile includes a short description of the movie and
-                 it's Youtube trailer, and also allows visitors to provide their thoughts on the movie.
-              </p>
-              <p>
-                This project was built as a Udacity course project to demonstrate
-                mastery of <strong>HTML, CSS, JavaScript, and Python.</strong>
-              </p>
-            </div>
+            <p><strong>Movie Website</strong> was built to showcase my favorite movies. Each tile includes a short description of the movie and it's Youtube trailer, and also allows visitors to provide their thoughts on the movie.
+            </p>
+            <p>
+              This project was built as a Udacity course project to demonstrate mastery of <strong>HTML, CSS, JavaScript, and Python.</strong>
+            </p>
           </div>
         </div>
         <div class="modal-footer">
@@ -239,22 +223,15 @@
         </div>
         <div class="modal-body">
           <div class="modal-image">
-            <div>
-              <img class="img-responsive img-rounded center-block" src="images/portfolio-website.png" alt="A screenshot of the Portfolio Website">
-            </div>
+            <img class="img-responsive img-rounded center-block" src="images/portfolio-website.png" alt="A screenshot of the Portfolio Website">
           </div>
           <hr>
-          <div class="modal-description row">
-            <div class="col-md-12">
-              <p>My <strong>Portfolio Website</strong> was built to showcase Udacity projects that I've built and document
-              my progress over the months. Unfortunately, I didn't have the three required projects to showcase
-              on this portfolio, so I've had to include the portfolio itself as well :(
-              </p>
-              <p>
-                This project was built as a Udacity course project to demonstrate
-                mastery of <strong>HTML and CSS, as well as understanding of grid-based designs.</strong>
-              </p>
-            </div>
+          <div class="modal-description">
+            <p>My <strong>Portfolio Website</strong> was built to showcase Udacity projects that I've built and document my progress over the months. Unfortunately, I didn't have the three required projects to showcase on this portfolio, so I've had to include the portfolio itself as well :(
+            </p>
+            <p>
+              This project was built as a Udacity course project to demonstrate mastery of <strong>HTML and CSS, as well as understanding of grid-based designs.</strong>
+            </p>
           </div>
         </div>
         <div class="modal-footer">
@@ -267,4 +244,5 @@
   </div>
 
 </body>
+
 </html>
